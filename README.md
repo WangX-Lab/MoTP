@@ -17,7 +17,7 @@ A novel algorithm that integrates mRNA expression, lncRNA expression, miRNA expr
 
 # Details
 
-+ The function `Preprocess()` is preprocessing a list of omics data frames or matrices. Including impute missing values and [0,1] scaled (maximum=1, minimum=0). This step is unnecessary; you can process the data yourself, as long as the data has no missing values and the range is scaled to [0,1].
++ The function `Preprocess()` is preprocessing a list of omics data frames or matrices, including impute missing values and [0,1] scaled (maximum=1, minimum=0). This step is optional; you can process the data yourself, as long as the data has no missing values and the range is scaled to [0,1].
 + The function `MoTP()` is used to predict tumor purity from either single-omics or multi-omics data.
   + "data_list" is a collection of omics data frames or matrices. Specifically, each element in the list represents a different omics dataset, It is essential to ensure that row names are features and col names are samples. The sample names must remain consistent across all the omics datasets provided. The list must contain at least one omics dataset.
   + "omics_list" is a character vector indicating the type of each omics data in data_list. Default is c("mRNA", "miRNA", "lncRNA", "DNA-methylation"). Make sure the order is the same with "data_list".
