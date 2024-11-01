@@ -1,6 +1,6 @@
 # MoTP
 
-The machine learning Multi-Omics Tumor Purity Prediction (MoTP) algorithm introduces a novel method for accurately estimating tumor purity from any single type of transcriptomic ((mRNA, microRNA, Long non-coding RNA) and DNA methylation data.
+Multi-Omics Tumor Purity Prediction (MoTP) is a machine learning algorithm for accurately estimating tumor purity based on multi-omics data, including transcriptome (mRNA, microRNA, Long non-coding RNA) and DNA methylation data.
 
 
 
@@ -9,7 +9,7 @@ The machine learning Multi-Omics Tumor Purity Prediction (MoTP) algorithm introd
 
 # Description
 
-A novel algorithm that integrates mRNA expression, lncRNA expression, miRNA expression, and DNA methylation data within a uniform  machine learning framework to predict tumor purity has been developed.  Validated across TCGA pan-cancer datasets and various cancer cohorts,  MoTP demonstrated superior performance compared to other algorithms that estimate tumor purity.
+A novel algorithm that integrates mRNA expression, lncRNA expression, miRNA expression, and DNA methylation data within a uniform  machine learning framework to predict tumor purity. Benchmark experiments show that MoTP has superior performance compared to other tumor purity estimating algorithms.
 
 
 
